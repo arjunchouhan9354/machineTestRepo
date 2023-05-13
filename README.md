@@ -7,7 +7,7 @@
 • frontend : html5, CSS3, Bootstrap, JavaScript, jQuery, Ajax
 
 
-1. Machine Test Gitlink : [https://github.com/arjunchouhan9354/book-store-packt/tree/master](https://github.com/arjunchouhan9354/machineTestRepo)
+1. Machine Test Gitlink : [(https://github.com/arjunchouhan9354/machineTestRepo)](https://github.com/arjunchouhan9354/machineTestRepo)
 
 2. Create mySQL database - Database_name : **cast_india**
  After creating database import **cast_india.sql file** in **cast_india** Database
