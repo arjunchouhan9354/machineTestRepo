@@ -14,7 +14,7 @@
  
 **Admin Login Credentials**
 
-  Admin URL: http://localhost/cast_india/admin/login
+  Admin URL: http://localhost/cast_india/admin/login;
   **Email:** admin@gmail.com
   **Password:** 12345
   
