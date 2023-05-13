@@ -1,0 +1,237 @@
+CRITICAL - 2022-10-01 10:58:05 --> Trying to access array offset on value of type null
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\AnalyticsControllerAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\AnalyticsControllerAdmin->admins_activity_logs()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\AnalyticsControllerAdmin))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-01 11:12:48 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\admin_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(101): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->profile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:13:07 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\profile_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(132): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->updateProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:13:25 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\profile_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(132): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->updateProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:13:27 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\admin_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(101): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->profile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:13:29 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\profile_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(132): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->updateProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:35:55 --> Array to string conversion
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp1\\htdoc...', 102, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(31): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:39:10 --> Array to string conversion
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp1\\htdoc...', 107, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(31): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 11:39:20 --> Array to string conversion
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\admin\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp1\\htdoc...', 107, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/adm...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\admin\Dashboard.php(31): view('frontend/v1/adm...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\admin\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\admin\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 14:35:05 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-01 14:51:26 --> Not unique table/alias: 'payment_tbl'
+CRITICAL - 2022-10-01 14:51:26 --> Not unique table/alias: 'payment_tbl'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php(197): App\Models\Api\V1\PaymentModel->getRecentNotificationPaymentAdmin('2022-10-01 10:3...')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->AdminRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-01 14:51:56 --> Column 'user_id' in field list is ambiguous
+CRITICAL - 2022-10-01 14:51:56 --> Column 'user_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php(197): App\Models\Api\V1\PaymentModel->getRecentNotificationPaymentAdmin('2022-10-01 10:3...')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->AdminRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-01 15:18:35 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp1\\htdoc...', 452, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): file_get_contents('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#3 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-01 15:22:11 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-01 15:22:18 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-01 15:31:11 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp1\\htdoc...', 83, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(83): file_get_contents('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1664618471, 20)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 15:32:57 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-01 15:33:25 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-01 16:02:53 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp1\\htdoc...', 83, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(83): file_get_contents('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1664620372, 20)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp1\htdocs\learnotronix\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 17:52:35 --> Undefined index: status
+#0 /home/dikwzceh/learnotronix.robotronix.co.in/app/Views/frontend/v1/student/my_bookmarks.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/dikwzceh/...', 19, Array)
+#1 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/View/View.php(230): include('/home/dikwzceh/...')
+#2 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 /home/dikwzceh/learnotronix.robotronix.co.in/app/Controllers/frontend/v1/student/StudentController.php(75): view('frontend/v1/stu...', Array)
+#5 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->My_Bookmarks()
+#6 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dikwzceh/learnotronix.robotronix.co.in/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-01 22:23:46 --> unlink(public/assets/upload/logo/6332c2360a6e9_1664270902.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/dikwzceh/...', 331, Array)
+#1 /home/dikwzceh/learnotronix.robotronix.co.in/app/Controllers/api/v1/Admin/CourseResource.php(331): unlink('public/assets/u...')
+#2 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('23')
+#3 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dikwzceh/learnotronix.robotronix.co.in/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-01 22:24:37 --> unlink(public/assets/upload/logo/6332ba0a7749e_1664268810.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/dikwzceh/...', 331, Array)
+#1 /home/dikwzceh/learnotronix.robotronix.co.in/app/Controllers/api/v1/Admin/CourseResource.php(331): unlink('public/assets/u...')
+#2 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('22')
+#3 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dikwzceh/learnotronix.robotronix.co.in/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-01 22:25:20 --> unlink(public/assets/upload/logo/6332ba0a7749e_1664268810.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/dikwzceh/...', 331, Array)
+#1 /home/dikwzceh/learnotronix.robotronix.co.in/app/Controllers/api/v1/Admin/CourseResource.php(331): unlink('public/assets/u...')
+#2 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('22')
+#3 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 /home/dikwzceh/learnotronix.robotronix.co.in/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dikwzceh/learnotronix.robotronix.co.in/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

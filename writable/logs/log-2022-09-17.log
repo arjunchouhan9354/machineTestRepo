@@ -1,0 +1,52 @@
+CRITICAL - 2022-09-17 15:53:37 --> syntax error, unexpected ']'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdoc...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-17 15:53:49 --> syntax error, unexpected ']'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdoc...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-17 15:59:13 --> unlink(public/assets/upload/logo/63257144a41ca_1663398212.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp1\\htdoc...', 375, Array)
+#1 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\CourseResource.php(375): unlink('public/assets/u...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('1')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 15:59:16 --> unlink(public/assets/upload/logo/63257144a41ca_1663398212.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp1\\htdoc...', 375, Array)
+#1 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\CourseResource.php(375): unlink('public/assets/u...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('1')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 15:59:22 --> unlink(public/assets/upload/logo/63257144a41ca_1663398212.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp1\\htdoc...', 375, Array)
+#1 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\CourseResource.php(375): unlink('public/assets/u...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('1')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-17 15:59:31 --> unlink(public/assets/upload/logo/63257144a41ca_1663398212.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp1\\htdoc...', 375, Array)
+#1 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\CourseResource.php(375): unlink('public/assets/u...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\CourseResource->update('1')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\CourseResource))
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

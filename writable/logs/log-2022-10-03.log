@@ -1,0 +1,186 @@
+CRITICAL - 2022-10-03 14:17:42 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('user/dd-course-...', 'before')
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:18:12 --> Unclosed '{' on line 9
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 14:18:51 --> syntax error, unexpected single-quoted string "reply_review", expecting "]"
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Api\\...')
+#2 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Api\\...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->addCourseReview()
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#5 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 14:19:54 --> syntax error, unexpected single-quoted string "reply_review", expecting "]"
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Api\\...')
+#2 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Api\\...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->addCourseReview()
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#5 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 14:54:39 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('user/update-rev...', 'before')
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:55:37 --> Undefined variable $utils
+#0 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->updateStar()
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 15:09:09 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 15:50:34 --> Undefined variable $insert_data
+#0 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->updateStar()
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-10-03 15:54:31 --> Column 'course_review' cannot be null
+CRITICAL - 2022-10-03 15:54:31 --> Column 'course_review' cannot be null
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(149): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->updateStar()
+#9 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#10 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-03 16:00:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('user/add-course...', 'before')
+#4 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 16:01:32 --> Undefined variable $data
+#0 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\ReviewResource.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Student\ReviewResource->addCourseReview()
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Student\ReviewResource))
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-10-03 16:45:00 --> Unknown column 'course_id.admin_id' in 'where clause'
+CRITICAL - 2022-10-03 16:45:00 --> Unknown column 'course_id.admin_id' in 'where clause'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-03 17:02:09 --> Unknown column 'course_review.topic_id' in 'field list'
+CRITICAL - 2022-10-03 17:02:09 --> Unknown column 'course_review.topic_id' in 'field list'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-03 17:02:33 --> Unknown column 'course_review.topic_id' in 'field list'
+CRITICAL - 2022-10-03 17:02:33 --> Unknown column 'course_review.topic_id' in 'field list'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-03 17:03:07 --> Unknown column 'course_review.topic_id' in 'field list'
+CRITICAL - 2022-10-03 17:03:07 --> Unknown column 'course_review.topic_id' in 'field list'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-03 17:03:35 --> Unknown column 'course_review.user_id' in 'field list'
+CRITICAL - 2022-10-03 17:03:35 --> Unknown column 'course_review.user_id' in 'field list'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-10-03 17:10:08 --> Unknown column 'topic_tbl.topic_id' in 'on clause'
+CRITICAL - 2022-10-03 17:10:08 --> Unknown column 'topic_tbl.topic_id' in 'on clause'
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\ReviewModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(288): App\Models\Api\V1\ReviewModel->getTrainersCourseFeedback('6')
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->trainersCourseFeedback()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-03 18:26:22 --> Class "App\Controllers\api\v1\Admin\ReviewModel" not found
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->AdminsCourseFeedback()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 18:27:30 --> Class "App\Controllers\api\v1\Admin\ReviewModel" not found
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->AdminsCourseFeedback()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

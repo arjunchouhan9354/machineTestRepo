@@ -1,0 +1,123 @@
+ERROR - 2022-09-29 10:46:13 --> Unknown column 'payment_tbl.course_title' in 'field list'
+CRITICAL - 2022-09-29 10:46:13 --> Unknown column 'payment_tbl.course_title' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 10:51:49 --> Not unique table/alias: 'payment_tbl'
+CRITICAL - 2022-09-29 10:51:49 --> Not unique table/alias: 'payment_tbl'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 10:59:28 --> Unknown column 'payment_tbl.created_date' in 'where clause'
+CRITICAL - 2022-09-29 10:59:28 --> Unknown column 'payment_tbl.created_date' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 11:00:06 --> Unknown column 'payment_tbl.created_date' in 'field list'
+CRITICAL - 2022-09-29 11:00:06 --> Unknown column 'payment_tbl.created_date' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `paym...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `paym...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `paym...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `paym...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 11:00:19 --> Unknown column 'payment_tbl.created_date' in 'where clause'
+CRITICAL - 2022-09-29 11:00:19 --> Unknown column 'payment_tbl.created_date' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 11:01:56 --> Column 'course_id' in field list is ambiguous
+CRITICAL - 2022-09-29 11:01:56 --> Column 'course_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(130): App\Models\Api\V1\PaymentModel->getRecentNotificationPayment('2022-09-28 18:3...', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 11:40:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `is_approved` = 1
+AND `status` = 1
+ORDER BY `created_date` DESC' at line 4
+CRITICAL - 2022-09-29 11:40:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `is_approved` = 1
+AND `status` = 1
+ORDER BY `created_date` DESC' at line 4
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\TopicModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(140): App\Models\Api\V1\Admin\TopicModel->getRecentNotificationTopic('2022-09-28 18:3...', Array)
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-29 11:41:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `is_approved` = 1
+AND `status` = 1
+ORDER BY `created_date` DESC' at line 4
+CRITICAL - 2022-09-29 11:41:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND `is_approved` = 1
+AND `status` = 1
+ORDER BY `created_date` DESC' at line 4
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\TopicModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(137): App\Models\Api\V1\Admin\TopicModel->getRecentNotificationTopic('2022-09-28 18:3...', Array)
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-29 11:41:55 --> Undefined variable: topic_notify
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 147, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersRecentNotification()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

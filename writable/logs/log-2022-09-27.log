@@ -1,0 +1,600 @@
+CRITICAL - 2022-09-27 11:57:54 --> Undefined variable: enrolled_user
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\dashboard.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 55, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(13): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 11:58:40 --> Undefined variable: enrolled_user
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(13): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 11:59:00 --> Undefined variable: enrolled_user
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(13): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 11:59:14 --> Undefined variable: profile
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\dashboard.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 304, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(13): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 12:14:21 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 23, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 12:14:29 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 23, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 12:27:38 --> Call to undefined function parseFloat()
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#3 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(25): view('frontend/v1/stu...', Array)
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->user_dashboard()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-27 12:59:06 --> Cannot declare class App\Controllers\api\v1\trainer\AnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:00:01 --> Cannot declare class App\Controllers\api\v1\trainer\AnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:00:42 --> Cannot declare class App\Controllers\api\v1\trainer\AnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:02:00 --> Cannot declare class App\Controllers\api\v1\trainer\StudentsAnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:04:33 --> Cannot declare class App\Controllers\api\v1\trainer\StudentsAnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:04:56 --> Cannot declare class App\Controllers\api\v1\trainer\StudentsAnalyticsDashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-27 13:05:45 --> Call to undefined method App\Models\Api\V1\AuthModel::loginActivity
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): CodeIgniter\Model->__call('loginActivity', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-27 13:07:10 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:07:10 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT user_id,...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id,...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id,...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT user_id,...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:08:18 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:08:18 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT user_id,...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id,...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id,...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT user_id,...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:08:36 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:08:36 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `user_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:08:46 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:08:46 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `user_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:10:03 --> Unknown column 'auth_token.user_id' in 'where clause'
+CRITICAL - 2022-09-27 13:10:03 --> Unknown column 'auth_token.user_id' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DATE(`cr...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE(`cr...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE(`cr...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT DATE(`cr...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:10:28 --> Unknown column 'auth_token.user_id' in 'field list'
+CRITICAL - 2022-09-27 13:10:28 --> Unknown column 'auth_token.user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT auth_tok...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT auth_tok...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT auth_tok...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT auth_tok...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:11:27 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:11:27 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT user_id ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id ...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT user_id ...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivity('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 13:12:16 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-09-27 13:12:16 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT user_id ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id ...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT user_id ...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): App\Models\Api\V1\AuthModel->loginActivityAuth('4')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 13:13:05 --> Call to undefined method App\Models\Api\V1\AuthModel::loginActivityAuth
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentsAnalyticsDashboard.php(79): CodeIgniter\Model->__call('loginActivityAu...', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentsAnalyticsDashboard->UsersloginActivity()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentsAnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 14:24:14 --> Undefined index: search
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 191, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 14:47:45 --> Undefined index: search
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 192, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 14:56:39 --> Undefined index: search
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 196, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-27 15:02:13 --> Table 'learnotronix.course_id' doesn't exist
+CRITICAL - 2022-09-27 15:02:13 --> Table 'learnotronix.course_id' doesn't exist
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentController.php(324): App\Models\Api\V1\Admin\CoursesModel->searchCourse('deve')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentController->search_courses()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-27 15:06:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'admin_tbl LIKE '%deve%' OR basic_description LIKE '%deve%' OR description LIK...' at line 1
+CRITICAL - 2022-09-27 15:06:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'admin_tbl LIKE '%deve%' OR basic_description LIKE '%deve%' OR description LIK...' at line 1
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentController.php(324): App\Models\Api\V1\Admin\CoursesModel->searchCourse('deve')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentController->search_courses()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 15:43:13 --> Call to undefined method App\Models\Api\V1\AuthAdminModel::searchByTrainer
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\StudentController.php(269): CodeIgniter\Model->__call('searchByTrainer', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentController->search_courses()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-27 15:59:56 --> Undefined variable: title
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\includes\header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 17, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('frontend/v1/stu...', NULL, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(1): CodeIgniter\View\View->include('frontend/v1/stu...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#8 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#9 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#10 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#11 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-27 16:09:49 --> Undefined index: by_course
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:27:24 --> Undefined index: course_title
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 23, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:27:30 --> Undefined index: course_title
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 59, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:27:32 --> Undefined index: course_title
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 59, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:28:16 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:28:17 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:28:18 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:28:18 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:28:43 --> syntax error, unexpected ')'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#2 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-27 16:28:44 --> syntax error, unexpected ')'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#2 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-27 16:28:53 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 59, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:30:36 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 64, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:30:59 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 64, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:38:47 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 73, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:40:38 --> Undefined index: first_name
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 42, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:40:52 --> Undefined index: first_name
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 42, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:49:15 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 71, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:52:20 --> Undefined variable: response
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:52:57 --> Undefined index: course_id
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:52:58 --> Undefined index: course_id
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 16:52:58 --> Undefined index: course_id
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 68, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(209): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:07:38 --> Undefined variable: result
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 22, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(210): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:10:06 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:10:46 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:11:08 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:11:16 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:11:39 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 17, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:12:24 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 17, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:12:57 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 17, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:13:00 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 17, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-27 17:13:27 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 21, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(208): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->searchCourseData()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

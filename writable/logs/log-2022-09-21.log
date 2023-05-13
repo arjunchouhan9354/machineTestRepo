@@ -1,0 +1,813 @@
+CRITICAL - 2022-09-21 10:54:01 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-all-chat-hi...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:54:01 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-all-chat-hi...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:54:01 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-all-chat-hi...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:58:05 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-chat-messag...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:58:05 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-chat-messag...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-21 10:58:05 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('get-chat-messag...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+CRITICAL - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(80): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+CRITICAL - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(80): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+CRITICAL - 2022-09-21 10:58:26 --> Unknown column 'chat_tbl.chat_with' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(80): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:15:26 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:15:26 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(35): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 14:15:26 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\ChatController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 22, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\ChatController->getAllChatHistoryUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\ChatController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-21 14:15:56 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:15:56 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(35): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 14:15:56 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\ChatController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 22, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\ChatController->getAllChatHistoryUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\ChatController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-21 14:16:39 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:16:39 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(35): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 14:16:39 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\ChatController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 22, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\ChatController->getAllChatHistoryUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\ChatController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-21 14:17:06 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:17:06 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(35): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 14:17:06 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\ChatController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 22, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\ChatController->getAllChatHistoryUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\ChatController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-21 14:17:35 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:17:35 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(35): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:23:08 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:23:08 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(37): App\Models\Api\V1\ChatMsgModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:23:38 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:23:38 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:23:38 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:23:38 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:23:39 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:23:39 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:24:39 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:25:15 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:17 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:26:34 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:27:28 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:27:28 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:27:28 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:27:28 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:27:29 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:27:29 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:28:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:29:33 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:30:19 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('4', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('2', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:41:44 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('3', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:42:30 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+CRITICAL - 2022-09-21 14:43:57 --> Unknown column 'chat_tbl.message' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(83): App\Models\Api\V1\ChatModel->getChatMessages('', '1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 14:45:31 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 14:45:31 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 14:45:31 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 14:46:35 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 14:46:35 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 14:46:35 --> Call to undefined method App\Models\Api\V1\ChatModel::getChatMessages
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(82): CodeIgniter\Model->__call('getChatMessages', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+CRITICAL - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+CRITICAL - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+CRITICAL - 2022-09-21 14:47:02 --> Unknown column 'chat_message.request_id' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+CRITICAL - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+CRITICAL - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+CRITICAL - 2022-09-21 14:47:36 --> Unknown column 'chat_id' in 'order clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_me...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_me...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_me...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_me...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatMsgModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(81): App\Models\Api\V1\ChatMsgModel->getChatMessages('')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getChatMessagesOfUser()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 15:05:20 --> Undefined index: user_name
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\student\chatting.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 6, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(37): view('frontend/v1/stu...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->My_chatting()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-21 17:59:49 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2022-09-21 17:59:49 --> Column 'user_id' in where clause is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `chat_tb...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `chat_tb...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `chat_tb...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `chat_tb...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\ChatModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\ChatResource.php(36): App\Models\Api\V1\ChatModel->getChatHistory('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\ChatResource->getAllChatHistory()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\ChatResource))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-21 18:39:49 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('delete-send-req...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,122 @@
+CRITICAL - 2022-09-30 10:26:55 --> syntax error, unexpected '?>'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/stu...', Array, true)
+#2 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\student\StudentController.php(44): view('frontend/v1/stu...', Array)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\student\StudentController->my_Invoice()
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\student\StudentController))
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-30 10:41:38 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:41:38 --> Column 'id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:41:40 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:41:40 --> Column 'id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id` as ...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id` as ...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id` as ...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id` as ...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:42:29 --> Column 'user_id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:42:29 --> Column 'user_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+CRITICAL - 2022-09-30 10:42:30 --> Column 'user_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-30 10:42:47 --> Column 'payment_id' in order clause is ambiguous
+CRITICAL - 2022-09-30 10:42:47 --> Column 'payment_id' in order clause is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `payment...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payment...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payment...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `payment...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\PaymentModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\student\PaymentController.php(278): App\Models\Api\V1\PaymentModel->getUsersCourseInvoice('1')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->UsersCoursesInvoice()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-30 15:04:57 --> The action you requested is not allowed.
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('admin/addcatego...', 'before')
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-30 17:48:32 --> Unknown column 'course_name' in 'field list'
+CRITICAL - 2022-09-30 17:48:32 --> Unknown column 'course_name' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->getAllEntrolledStudentsCount()
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#9 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}

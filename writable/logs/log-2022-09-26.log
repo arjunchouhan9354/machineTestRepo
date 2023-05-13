@@ -1,0 +1,765 @@
+CRITICAL - 2022-09-26 11:33:04 --> Undefined index: user_id
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\AnalyticsTrainerController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 15, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\AnalyticsTrainerController->analytics_trainer_data()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\AnalyticsTrainerController))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 11:40:48 --> Call to undefined method App\Models\Api\V1\Admin\QuestionModel::countRow
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(34): CodeIgniter\Model->__call('countRow', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->getAllCoursesTopicsAndQuestion()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 11:40:52 --> Call to undefined method App\Models\Api\V1\Admin\QuestionModel::countRow
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(34): CodeIgniter\Model->__call('countRow', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->getAllCoursesTopicsAndQuestion()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 11:50:12 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:50:45 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:50:45 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:50:46 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:50:46 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:50:46 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:01 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:02 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:02 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:02 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:03 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:47 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:48 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:48 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:48 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:49 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:51:49 --> Undefined variable: dashboard_data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:10 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:10 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:11 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:11 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:11 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:11 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:14 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:14 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:14 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:15 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:17 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:52:21 --> Undefined variable: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 24, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(16): view('frontend/v1/tra...')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:56:08 --> Undefined variable: total_courses
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 30, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(27): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:56:09 --> Undefined variable: total_courses
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 30, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(27): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 11:56:09 --> Undefined variable: total_courses
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 30, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(27): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 12:25:06 --> Call to undefined method App\Models\Api\V1\AuthAdminModel::loginActivity
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): CodeIgniter\Model->__call('loginActivity', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 12:26:15 --> Call to undefined method App\Models\Api\V1\AuthAdminModel::loginActivity
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): CodeIgniter\Model->__call('loginActivity', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-26 12:37:53 --> Unknown column '$trainerId' in 'where clause'
+CRITICAL - 2022-09-26 12:37:53 --> Unknown column '$trainerId' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT admin_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT admin_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT admin_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(59): CodeIgniter\Database\BaseConnection->query('SELECT admin_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 12:39:32 --> Unknown column '$trainerId' in 'where clause'
+CRITICAL - 2022-09-26 12:39:32 --> Unknown column '$trainerId' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT admin_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT admin_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT admin_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(59): CodeIgniter\Database\BaseConnection->query('SELECT admin_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 12:45:45 --> Unknown column 'CustomerName' in 'where clause'
+CRITICAL - 2022-09-26 12:45:45 --> Unknown column 'CustomerName' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT created_...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT created_...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT created_...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(59): CodeIgniter\Database\BaseConnection->query('SELECT created_...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 12:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group by Convert(dat...' at line 3
+CRITICAL - 2022-09-26 12:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group by Convert(dat...' at line 3
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('Select\r\n\t\tcount...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select\r\n\t\tcount...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select\r\n\t\tcount...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('Select\r\n\t\tcount...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 12:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group by Convert(cre...' at line 3
+CRITICAL - 2022-09-26 12:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group by Convert(cre...' at line 3
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('Select\r\n\t\tcount...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select\r\n\t\tcount...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select\r\n\t\tcount...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('Select\r\n\t\tcount...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 12:56:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group created_on' at line 2
+CRITICAL - 2022-09-26 12:56:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_on) as count_date 
+   from auth_token_admin
+   group created_on' at line 2
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('Select\r\n\t\tcount...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select\r\n\t\tcount...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select\r\n\t\tcount...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('Select\r\n\t\tcount...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'varchar, created_on, 101)' at line 4
+CRITICAL - 2022-09-26 13:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'varchar, created_on, 101)' at line 4
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(cr...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(cr...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(cr...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(cr...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:00:34 --> FUNCTION learnotronix.getdate does not exist
+CRITICAL - 2022-09-26 13:00:34 --> FUNCTION learnotronix.getdate does not exist
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(cr...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(cr...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(cr...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(cr...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:13:57 --> Table 'learnotronix.tblvisits' doesn't exist
+CRITICAL - 2022-09-26 13:13:57 --> Table 'learnotronix.tblvisits' doesn't exist
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT    DATEP...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT    DATEP...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT    DATEP...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT    DATEP...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:14:07 --> FUNCTION learnotronix.DATEPART does not exist
+CRITICAL - 2022-09-26 13:14:07 --> FUNCTION learnotronix.DATEPART does not exist
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT    DATEP...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT    DATEP...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT    DATEP...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT    DATEP...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:14:28 --> FUNCTION learnotronix.DATEPART does not exist
+CRITICAL - 2022-09-26 13:14:28 --> FUNCTION learnotronix.DATEPART does not exist
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DATEPART...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATEPART...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATEPART...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\AuthAdminModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT DATEPART...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(87): App\Models\Api\V1\AuthAdminModel->loginActivity('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersloginActivity()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:56:59 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:57:05 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:57:11 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:57:26 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:57:34 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:57:40 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:58:44 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(94): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 14:59:09 --> Undefined index: data
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\trainer_profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(95): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->trainerProfile()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 15:57:47 --> Column 'course_id' in field list is ambiguous
+CRITICAL - 2022-09-26 15:57:47 --> Column 'course_id' in field list is ambiguous
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `admin_i...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `admin_i...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `admin_i...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `admin_i...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(133): App\Models\Api\V1\Admin\CoursesModel->getAllEnrolledUserList('6')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TotalStudentCountForTrainerCourses()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-26 16:55:49 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp1\\htdoc...', 57, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(43): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 17:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  group by payment_tbl.course_id' at line 3
+CRITICAL - 2022-09-26 17:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  group by payment_tbl.course_id' at line 3
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT admin_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT admin_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT admin_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT admin_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(133): App\Models\Api\V1\Admin\CoursesModel->getAllEnrolledUserList('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TotalStudentCountForTrainerCourses()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 17:15:53 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 56, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(43): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 17:16:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by payment_tbl.course_id' at line 3
+CRITICAL - 2022-09-26 17:16:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by payment_tbl.course_id' at line 3
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT admin_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT admin_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT admin_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT admin_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(133): App\Models\Api\V1\Admin\CoursesModel->getAllEnrolledUserList('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TotalStudentCountForTrainerCourses()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 17:16:06 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 56, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(43): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 17:16:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by total_enrolled DESC' at line 3
+CRITICAL - 2022-09-26 17:16:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by total_enrolled DESC' at line 3
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT admin_id...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT admin_id...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT admin_id...')
+#3 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT admin_id...')
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(133): App\Models\Api\V1\Admin\CoursesModel->getAllEnrolledUserList('6')
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TotalStudentCountForTrainerCourses()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 17:16:27 --> Undefined index: status
+#0 C:\xampp1\htdocs\learnotronix\app\Views\frontend\v1\trainer\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 56, Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('frontend/v1/tra...', Array, true)
+#4 C:\xampp1\htdocs\learnotronix\app\Controllers\frontend\v1\trainer\Dashboard.php(43): view('frontend/v1/tra...', Array)
+#5 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\frontend\v1\trainer\Dashboard->index()
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frontend\v1\trainer\Dashboard))
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 18:15:35 --> Unknown column 'RecordDate' in 'where clause'
+CRITICAL - 2022-09-26 18:15:35 --> Unknown column 'RecordDate' in 'where clause'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(181): App\Models\Api\V1\Admin\CoursesModel->trainersActivityLogs('6')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersActivityLogs()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-26 18:17:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' DATE(updated_date) <=' at line 6
+CRITICAL - 2022-09-26 18:17:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' DATE(updated_date) <=' at line 6
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(181): App\Models\Api\V1\Admin\CoursesModel->trainersActivityLogs('6')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersActivityLogs()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-26 18:23:04 --> Call to undefined method App\Models\Api\V1\Admin\TopicModel::trainersActivityLogsQuestion
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(182): CodeIgniter\Model->__call('trainersActivit...', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersActivityLogs()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 18:24:50 --> Call to undefined method App\Models\Api\V1\Admin\TopicModel::trainersActivityLogsQuestion
+#0 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(182): CodeIgniter\Model->__call('trainersActivit...', Array)
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersActivityLogs()
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-26 18:39:13 --> Unknown column 'created_by' in 'field list'
+CRITICAL - 2022-09-26 18:39:13 --> Unknown column 'created_by' in 'field list'
+#0 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp1\htdocs\learnotronix\app\Models\Api\V1\Admin\CoursesModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\learnotronix\app\Controllers\api\v1\trainer\AnalyticsDashboard.php(181): App\Models\Api\V1\Admin\CoursesModel->trainersActivityLogsCourse('6')
+#6 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\trainer\AnalyticsDashboard->TrainersActivityLogs()
+#7 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\trainer\AnalyticsDashboard))
+#8 C:\xampp1\htdocs\learnotronix\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\learnotronix\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

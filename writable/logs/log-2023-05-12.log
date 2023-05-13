@@ -1,0 +1,526 @@
+CRITICAL - 2023-05-12 07:51:00 --> Call to undefined method App\Libraries\Utils::lastLogin()
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->loginUser()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 07:51:00 --> Undefined array key "status"
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 41)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->UserLogin()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 07:51:00 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 07:54:27 --> Call to undefined method App\Libraries\Utils::lastLogin()
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->loginUser()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 07:54:27 --> Undefined array key "status"
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 41)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->UserLogin()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 07:54:27 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 07:56:08 --> Call to undefined method App\Libraries\Utils::lastLogin()
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->loginUser()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 08:07:09 --> The action you requested is not allowed.
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('register/user', 'before')
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-12 08:33:06 --> Call to undefined function App\Controllers\api\v1\getClientIpAddress()
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->loginUser()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 08:33:06 --> Undefined array key "status"
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 40)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->UserLogin()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 08:33:06 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:42:43 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:57:01 --> Unclosed '{' on line 3
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(17): view('index')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-12 08:57:01 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:57:19 --> Unclosed '{' on line 3
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(17): view('index')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-12 08:57:19 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:57:38 --> Unclosed '{' on line 3
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(17): view('index')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-12 08:57:38 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:58:02 --> Unclosed '{' on line 3
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('includes/header', NULL, true)
+#2 C:\xampp_new\htdocs\cast_india\app\Views\layouts\master.php(1): CodeIgniter\View\View->include('includes/header')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/master', Array, true)
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(17): view('index')
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#9 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-12 08:58:02 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 08:58:28 --> Unclosed '{' on line 3
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(17): view('index')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-12 08:58:28 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 09:02:23 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 22:03:16 --> Undefined variable $data
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 36)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->profile()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 22:03:16 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 22:03:59 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-12 22:04:04 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-12 22:04:30 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2023-05-12 22:04:30 --> Column 'user_id' in where clause is ambiguous
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp_new\htdocs\cast_india\app\Models\Api\V1\UserDetails.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\UserController.php(185): App\Models\Api\V1\UserDetails->getUsersData('1')
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->getUserDetails()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-12 22:13:18 --> Class "App\Controllers\api\v1\UserServiceModel" not found
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->insertUserProfile()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 22:16:18 --> Undefined array key "user_name"
+#0 C:\xampp_new\htdocs\cast_india\app\Views\profile.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 20)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): view('profile', Array)
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->profile()
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-12 22:16:18 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 22:21:19 --> Undefined variable $token
+#0 C:\xampp_new\htdocs\cast_india\app\Views\profile.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 80)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): view('profile', Array)
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->profile()
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-12 22:21:19 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 22:23:19 --> Undefined variable $token
+#0 C:\xampp_new\htdocs\cast_india\app\Views\includes\footer.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 51)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('includes/footer', NULL, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Views\layouts\master.php(4): CodeIgniter\View\View->include('includes/footer')
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/master', Array, true)
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('profile', Array, true)
+#9 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): view('profile', Array)
+#10 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->profile()
+#11 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-12 22:23:19 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 22:35:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->updateUserDetails()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 22:42:13 --> Call to undefined method App\Libraries\Utils::upload_profile()
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->updateUserDetails()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-12 22:43:10 --> Undefined array key "new_name"
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\UserController.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 319)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->updateUserDetails()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 22:43:33 --> Undefined array key "new_name"
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\UserController.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 319)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\UserController->updateUserDetails()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\UserController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-12 22:44:17 --> Undefined array key "profile_pic"
+#0 C:\xampp_new\htdocs\cast_india\app\Views\profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_new\\ht...', 15)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(41): view('profile', Array)
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->profile()
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-12 22:44:17 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 23:02:35 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 23:04:52 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 23:31:15 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-12 23:59:04 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

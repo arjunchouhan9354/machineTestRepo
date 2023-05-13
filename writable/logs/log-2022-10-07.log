@@ -1,0 +1,27 @@
+CRITICAL - 2022-10-07 11:18:34 --> Too few arguments to function App\Models\Api\V1\AuthModel::getTotalLoggeduserToday(), 0 passed in C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php on line 309 and exactly 1 expected
+#0 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php(309): App\Models\Api\V1\AuthModel->getTotalLoggeduserToday()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->checkTotalLoggedInUsers()
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-07 11:18:40 --> Too few arguments to function App\Models\Api\V1\AuthModel::getTotalLoggeduserToday(), 0 passed in C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php on line 309 and exactly 1 expected
+#0 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Admin\AnalyticsDashboardAdmin.php(309): App\Models\Api\V1\AuthModel->getTotalLoggeduserToday()
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin->checkTotalLoggedInUsers()
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AnalyticsDashboardAdmin))
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-10-07 16:42:57 --> Column 'subject_category' in field list is ambiguous
+CRITICAL - 2022-10-07 16:42:57 --> Column 'subject_category' in field list is ambiguous
+#0 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `course_...')
+#1 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\learnotronix_new\app\Models\Api\V1\Admin\CoursesModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\StudentController.php(39): App\Models\Api\V1\Admin\CoursesModel->catjoinForStudent()
+#6 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\StudentController->getAllCourse()
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\StudentController))
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

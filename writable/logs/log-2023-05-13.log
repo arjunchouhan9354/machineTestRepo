@@ -1,0 +1,206 @@
+CRITICAL - 2023-05-13 00:16:19 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-13 00:17:01 --> Undefined variable $token
+#0 C:\xampp_new\htdocs\cast_india\app\Views\includes\footer.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 60)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('includes/footer', NULL, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Views\layouts\master.php(4): CodeIgniter\View\View->include('includes/footer')
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/master', Array, true)
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/userList', Array, true)
+#9 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(98): view('admin/userList')
+#10 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->usersListDetails()
+#11 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-13 00:17:01 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-13 00:17:42 --> Undefined variable $token
+#0 C:\xampp_new\htdocs\cast_india\app\Views\includes\footer.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 60)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('includes/footer', NULL, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Views\layouts\master.php(4): CodeIgniter\View\View->include('includes/footer')
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/master', Array, true)
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/userList', Array, true)
+#9 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(98): view('admin/userList')
+#10 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->usersListDetails()
+#11 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-13 00:17:42 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-13 00:18:02 --> Undefined variable $token
+#0 C:\xampp_new\htdocs\cast_india\app\Views\includes\footer.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 60)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('includes/footer', NULL, true)
+#4 C:\xampp_new\htdocs\cast_india\app\Views\layouts\master.php(4): CodeIgniter\View\View->include('includes/footer')
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layouts/master', Array, true)
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/jobListMa...', Array, true)
+#9 C:\xampp_new\htdocs\cast_india\app\Controllers\Home.php(102): view('admin/jobListMa...')
+#10 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->jobListMapping()
+#11 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-13 00:18:02 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-13 00:45:48 --> Call to undefined method App\Models\Api\V1\UserModel::getUserListDetails
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(35): CodeIgniter\Model->__call('getUserListDeta...', Array)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getUsersListDetails()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-13 00:45:55 --> Call to undefined method App\Models\Api\V1\UserModel::getUserListDetails
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(35): CodeIgniter\Model->__call('getUserListDeta...', Array)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getUsersListDetails()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-13 08:18:15 --> Call to undefined method App\Models\Api\V1\JobListModel::getAllJobListMapping
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(84): CodeIgniter\Model->__call('getAllJobListMa...', Array)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-13 08:37:06 --> Table 'cast_india.job_list' doesn't exist
+CRITICAL - 2023-05-13 08:37:06 --> Table 'cast_india.job_list' doesn't exist
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT \r\n    jo...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n    jo...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n    jo...')
+#3 C:\xampp_new\htdocs\cast_india\app\Models\Api\V1\JobListModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT \r\n    jo...')
+#4 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(84): App\Models\Api\V1\JobListModel->getAllJobListMapping()
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-13 08:43:46 --> syntax error, unexpected identifier "✔", expecting ")"
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Api\\...')
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(74): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Api\\...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-13 08:44:08 --> syntax error, unexpected identifier "✔", expecting ")"
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Api\\...')
+#2 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(74): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Api\\...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#4 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#5 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-13 08:46:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(84): App\Models\Api\V1\JobListModel->getAllJobListMapping()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-13 08:55:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftJoin()
+#0 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(84): App\Models\Api\V1\JobListModel->getAllJobListMapping()
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-13 08:56:40 --> Column 'job_id' in field list is ambiguous
+CRITICAL - 2023-05-13 08:56:40 --> Column 'job_id' in field list is ambiguous
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `job_id`...')
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `job_id`...')
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `job_id`...')
+#3 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `job_id`...', Array, false)
+#4 C:\xampp_new\htdocs\cast_india\app\Models\Api\V1\JobListModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_new\htdocs\cast_india\app\Controllers\api\v1\Admin\AdminController.php(84): App\Models\Api\V1\JobListModel->getAllJobListMapping()
+#6 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\Admin\AdminController->getAllJobListMapping()
+#7 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Admin\AdminController))
+#8 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_new\htdocs\cast_india\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-13 09:15:25 --> Uncaught ErrorException: Undefined variable $viewFile in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_new\\ht...', 278)
+#1 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+
+Next ValueError: Path cannot be empty in C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp_new\htdocs\cast_india\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#1 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

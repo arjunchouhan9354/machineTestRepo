@@ -1,0 +1,13 @@
+CRITICAL - 2022-10-04 10:41:14 --> cURL error 28: Resolving timed out after 10000 milliseconds
+#0 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\libs\Requests-1.8.0\library\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\libs\Requests-1.8.0\library\Requests.php(381): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\src\Request.php(56): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\src\Entity.php(86): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#4 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\src\Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#5 C:\xampp\htdocs\learnotronix_new\app\Libraries\Razorpay\src\Order.php(12): Razorpay\Api\Entity->create(Array)
+#6 C:\xampp\htdocs\learnotronix_new\app\Controllers\api\v1\Student\PaymentController.php(60): Razorpay\Api\Order->create(Array)
+#7 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\api\v1\student\PaymentController->payment()
+#8 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\student\PaymentController))
+#9 C:\xampp\htdocs\learnotronix_new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\learnotronix_new\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
