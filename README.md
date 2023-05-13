@@ -14,12 +14,15 @@
  
 **Admin Login Credentials**
 
+  Admin URL: http://localhost/cast_india/admin/login
   **Email:** admin@gmail.com
   **Password:** 12345
   
   ======================================
   
   **Test Users Credentials**
+  
+  User URL: http://localhost/cast_india/login
   
   **Email:** ac@gmail.com
   
