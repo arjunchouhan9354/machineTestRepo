@@ -1,5 +1,12 @@
 # Machine Test - Cast India
 
+**Technologies Use:**
+
+• backend : PHP 8, Mysql ,Codeigniter 4
+
+• frontend : html5, CSS3, Bootstrap, JavaScript, jQuery, Ajax
+
+
 1. Machine Test Gitlink : [https://github.com/arjunchouhan9354/book-store-packt/tree/master](https://github.com/arjunchouhan9354/machineTestRepo)
 
 2. Create mySQL database Database name : **cast_india**
