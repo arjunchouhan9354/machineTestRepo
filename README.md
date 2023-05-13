@@ -2,12 +2,15 @@
 
 
 
-*Database Name:* cast_india
+#Database Name: cast_india
 
-*Test User*
+
+#Test User
+
 email: ac@gmail.com
 password: 12345
 
-*Admin* 
+#Admin Login Details: 
+
 Email: admin@gmail.com
 Password: 12345
